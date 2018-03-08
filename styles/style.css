@@ -1,0 +1,79 @@
+body {
+    line-height: 1.7;
+    background-color: wheat;
+    font-family: Georgia, serif;
+    font-size: 112%;
+    color: black;
+    
+    background-image: url(../images/awa.senghore.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body,
+h1, h2, h3, h4, h5, h6,
+ul, ol {
+    margin: 0;
+    padding: 0;
+    
+}
+
+  
+
+.header-title {
+  font-size: 50pt;  
+}
+
+.header-title-sub-title {
+  font-size: 24pt;    
+}
+
+.menu {
+  background-color: darkred;
+    margin-top: 3em;
+    
+  
+    
+}
+
+
+.menu a:hover {
+    color: deeppink;
+    background-color: pink;
+    width:60pxs;
+}
+
+.menu a.active{
+    background-color: black;
+
+}
+
+.active {
+    color: red;
+}
+
+.menu a {
+    display: inline-block;
+    padding: 1em;
+    text-decoration: none;
+    color: white;
+    
+   
+   }
+
+
+.wrapper {
+  width: 50%;
+  margin: 3em 0 0 3em;
+}
+
+.main-content {
+  background-color:rgba(255,255,255,0.7);
+  padding: 2em;
+}
+
+.footer {
+    width: 60%;
+    margin: 2em 2em 2em 2em;
+}
+
+    
